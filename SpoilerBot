@@ -15,6 +15,5 @@ async def on_ready():
 async def spoilerWall(ctx):
   for i in range(50):
     await ctx.send(f"Spoiler Wall Message \n**|** *({i+1}/50 messages sent)*")
-    currentMessage =+ 1
 
 client.run("TOKEN")
