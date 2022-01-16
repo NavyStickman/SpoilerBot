@@ -10,6 +10,7 @@ client = commands.Bot(command_prefix = '.', intents = intents)
 async def on_ready():
   print("Ready")
 
+#This is the spoiler wall command
 @client.command()
 async def spoilerWall(ctx):
   for i in range(50):
